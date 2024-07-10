@@ -1,0 +1,117 @@
+2024-07-10 08:29:58 - Homebrew ist bereits installiert.
+2024-07-10 08:29:58 - Git wird installiert...
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+cortexso
+kaskade
+litmusctl
+soapyhackrf
+wcurl
+
+You have 4 outdated formulae installed.
+
+git 2.44.0 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.45.2
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:46ac8df4305f4c039e8cb628c8196b93b245b111118cce3d6277f1f34a01da55
+==> Upgrading git
+  2.44.0 -> 2.45.2 
+==> Pouring git--2.45.2.arm64_sonoma.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.45.2: 1,664 files, 51.5MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/git/2.44.0... (1,649 files, 50.8MB)
+Removing: /Users/ranaaksoy/Library/Caches/Homebrew/git_bottle_manifest--2.44.0... (14.2KB)
+2024-07-10 08:30:06 - Git erfolgreich installiert.
+2024-07-10 08:30:06 - Node.js wird installiert...
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/22.4.1
+==> Fetching dependencies for node: brotli, c-ares, icu4c and libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:2a95140d61198e3153ff27d8847b76dd34162f6e6e39f3e0f34d2b3a3e4f15dd
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.32.1
+==> Fetching c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:f1a02262be841253d3c28ec4a6e819196368634d48ebd5db335277697a0abaf6
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:3facc22a7821e01d93a38e371e377f13275299d518929222ed34c77a4f4a65d3
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
+==> Fetching libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:803e5cefd2523e4f7fb2d70497df5df4b6bfbf3f285cfde9e9ff05f815bfb879
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:216cf9f3decc10a3ff2f8c05261589b266b4dbe1d90ed0b89d2dcb6de6435ddf
+==> Installing dependencies for node: brotli, c-ares, icu4c and libuv
+==> Installing node dependency: brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+Already downloaded: /Users/ranaaksoy/Library/Caches/Homebrew/downloads/565098509cdfa90593ec9a41b41239f073843f88caed60ddaa3e6194ac4defda--brotli-1.1.0-1.bottle_manifest.json
+==> Pouring brotli--1.1.0.arm64_sonoma.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.1.0: 25 files, 1016.0KB
+==> Installing node dependency: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.32.1
+Already downloaded: /Users/ranaaksoy/Library/Caches/Homebrew/downloads/491895419a01e439ca3fb9b547b24f89d25d10b1e354356ee22ac60554d0c78c--c-ares-1.32.1.bottle_manifest.json
+==> Pouring c-ares--1.32.1.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.32.1: 169 files, 905.3KB
+==> Installing node dependency: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+Already downloaded: /Users/ranaaksoy/Library/Caches/Homebrew/downloads/3e5230e726e5548db28bc0cf75710d6405903b742f941113d3dbe7483fad72a4--icu4c-74.2.bottle_manifest.json
+==> Pouring icu4c--74.2.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c/74.2: 271 files, 77.9MB
+==> Installing node dependency: libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
+Already downloaded: /Users/ranaaksoy/Library/Caches/Homebrew/downloads/8ee1d27fb604f55e3c4415b96e34dc9c7f557996832c372d984c8162b29a4ad2--libuv-1.48.0.bottle_manifest.json
+==> Pouring libuv--1.48.0.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.48.0: 20 files, 1.1MB
+==> Installing node
+==> Pouring node--22.4.1.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+==> Summary
+🍺  /opt/homebrew/Cellar/node/22.4.1: 2,068 files, 76.7MB
+==> Running `brew cleanup node`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> node
+Bash completion has been installed to:
+  /opt/homebrew/etc/bash_completion.d
+2024-07-10 08:30:17 - Node.js erfolgreich installiert.
+2024-07-10 08:30:17 - Docker wird installiert...
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/7410c5370500ba19cfebf2723d1e24885d61778c/Casks/d/docker.rb
+==> Downloading https://desktop.docker.com/mac/main/arm64/153195/Docker.dmg
+==> Installing Cask docker
+==> Moving App 'Docker.app' to '/Applications/Docker.app'
+==> Linking Binary 'docker-compose.fish-completion' to '/opt/homebrew/share/fish/vendor_completions.d/docker-compose.fish'
+==> Linking Binary 'com.docker.cli' to '/usr/local/bin/com.docker.cli'
+==> Linking Binary 'docker' to '/usr/local/bin/docker'
+==> Linking Binary 'docker-compose' to '/usr/local/bin/docker-compose'
+==> Linking Binary 'docker-credential-desktop' to '/usr/local/bin/docker-credential-desktop'
+==> Linking Binary 'docker-credential-ecr-login' to '/usr/local/bin/docker-credential-ecr-login'
+==> Linking Binary 'docker-credential-osxkeychain' to '/usr/local/bin/docker-credential-osxkeychain'
+==> Linking Binary 'docker-index' to '/usr/local/bin/docker-index'
+==> Linking Binary 'hub-tool' to '/usr/local/bin/hub-tool'
+==> Linking Binary 'kubectl' to '/usr/local/bin/kubectl.docker'
+==> Linking Binary 'docker.bash-completion' to '/opt/homebrew/etc/bash_completion.d/docker'
+==> Linking Binary 'docker.zsh-completion' to '/opt/homebrew/share/zsh/site-functions/_docker'
+==> Linking Binary 'docker.fish-completion' to '/opt/homebrew/share/fish/vendor_completions.d/docker.fish'
+==> Linking Binary 'docker-compose.bash-completion' to '/opt/homebrew/etc/bash_completion.d/docker-compose'
+==> Linking Binary 'docker-compose.zsh-completion' to '/opt/homebrew/share/zsh/site-functions/_docker-compose'
+🍺  docker was successfully installed!
+2024-07-10 08:32:46 - Docker erfolgreich installiert.
+2024-07-10 08:32:46 - Führe Tests durch...
+2024-07-10 08:32:46 - Git Test bestanden.
+2024-07-10 08:32:46 - Node.js Test bestanden.
+2024-07-10 08:32:46 - Docker Test bestanden.
+2024-07-10 08:32:46 - Installationsvorgang abgeschlossen.

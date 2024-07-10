@@ -1,0 +1,3 @@
+install_git=true
+install_node=true
+install_docker=true

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# API-Schlüssel für exchangerate-api.com (registrieren und erhalten Sie Ihren eigenen kostenlosen API-Schlüssel)
+# API-Schlüssel für exchangerate-api
+
 API_KEY="c995dfae5e74219f65cbf67b"
 
 # Datei zum Speichern der historischen Daten
@@ -58,7 +59,7 @@ echo -e "\nAbfrage der aktuellen Wechselkurse...\n"
 new_rates=$(get_exchange_rates)
 echo "Abgerufene Daten: $new_rates"
 
-# Überprüfen Sie, ob die abgerufenen Daten gültiges JSON sind
+# ob die abgerufenen Daten gültiges JSON sind
 if ! jq empty <<< "$new_rates" > /dev/null 2>&1; then
     echo "Fehler: Ungültige JSON-Daten erhalten. Überprüfen Sie Ihren API-Schlüssel und die API-Antwort."
     exit 1
